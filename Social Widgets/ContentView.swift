@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Social Widgets
-//
-//  Created by Alex Blong on 7/01/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -15,15 +8,24 @@ struct ContentView: View {
             VStack {
                 Text("Social Widgets")
                     .font(Font.custom("Inter", size: 40).weight(.black).italic())
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(.white)
-                        .frame(width: 500, height: 300, alignment: .top)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.white)
+                    .frame(width: 500, height: 680, alignment: .top)
+
+                // Profile Icon image
+                Image("Profile Icon")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 53, height: 53)
+                    .clipped()
+                    .offset(x: -160, y: -650) // Adjust x and y to move the image
                 
-                Image(systemName: "square")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
-                Text("Goodbye, World!")
+                Image(systemName: "gearshape")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 53, height: 53)
+                    .clipped()
+                    .offset(x: 160, y: 30) // Adjust x and y to move the image
             }
             .padding()
         }
@@ -37,8 +39,9 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-// GradientBackgroundView remains as you've defined it
+// ... [Rest of your code for GradientBackgroundView and BackgroundGradient] ...
 
+// Gradient (background)
 struct GradientBackgroundView: View {
     var body: some View {
         LinearGradient(
@@ -73,3 +76,4 @@ struct BackgroundGradient_Previews: PreviewProvider {
         ContentView()
     }
 }
+
