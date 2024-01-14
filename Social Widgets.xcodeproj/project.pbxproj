@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F09DAFA2B4A87060089F820 /* Social_WidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09DAF92B4A87060089F820 /* Social_WidgetsApp.swift */; };
-		8F09DAFC2B4A87060089F820 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09DAFB2B4A87060089F820 /* ContentView.swift */; };
+		8F09DAFC2B4A87060089F820 /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09DAFB2B4A87060089F820 /* BackGroundView.swift */; };
 		8F09DAFE2B4A87060089F820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F09DAFD2B4A87060089F820 /* Assets.xcassets */; };
 		8F09DB012B4A87060089F820 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F09DB002B4A87060089F820 /* Preview Assets.xcassets */; };
 		8F09DB0B2B4A87070089F820 /* Social_WidgetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09DB0A2B4A87070089F820 /* Social_WidgetsTests.swift */; };
@@ -66,7 +66,7 @@
 /* Begin PBXFileReference section */
 		8F09DAF62B4A87060089F820 /* Social Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F09DAF92B4A87060089F820 /* Social_WidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_WidgetsApp.swift; sourceTree = "<group>"; };
-		8F09DAFB2B4A87060089F820 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8F09DAFB2B4A87060089F820 /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
 		8F09DAFD2B4A87060089F820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F09DB002B4A87060089F820 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F09DB062B4A87070089F820 /* Social WidgetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social WidgetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				8F09DAF92B4A87060089F820 /* Social_WidgetsApp.swift */,
-				8F09DAFB2B4A87060089F820 /* ContentView.swift */,
+				8F09DAFB2B4A87060089F820 /* BackGroundView.swift */,
 				8F09DAFD2B4A87060089F820 /* Assets.xcassets */,
 				8F09DAFF2B4A87060089F820 /* Preview Content */,
 			);
@@ -361,7 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F09DAFC2B4A87060089F820 /* ContentView.swift in Sources */,
+				8F09DAFC2B4A87060089F820 /* BackGroundView.swift in Sources */,
 				8F09DAFA2B4A87060089F820 /* Social_WidgetsApp.swift in Sources */,
 				8F09DB392B4A8A3C0089F820 /* Widget_Section.intentdefinition in Sources */,
 			);
