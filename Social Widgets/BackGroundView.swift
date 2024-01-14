@@ -4,70 +4,49 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                HStack {
-                    Image(systemName: "person.crop.circle")
-                        .font(.system(size: 50))
-                    VStack(alignment: .leading) {
-                        Text("Aydan H")
-                            .font(.headline)
-                        Text("Twitter")
-                            .font(.subheadline)
-                    }
-                }
-                HStack {
-                    Image(systemName: "person.crop.circle")
-                        .font(.system(size: 50))
-                    VStack(alignment: .leading) {
-                        Text("@Aydanh")
-                            .font(.headline)
-                        Text("Instagram")
-                            .font(.subheadline)
-                    }
-                }
-                HStack {
-                    Image("Profile Icon")
-                        .font(.system(size: 50))
-                    VStack(alignment: .leading) {
-                        Text("@Bydanh")
-                            .font(.headline)
-                        Text("WhatsApp")
-                            .font(.subheadline)
-                    }
-                }
-            }
-            VStack {
-                        // Use Spacer to push content to the center or specific position
-                        //Spacer()
-                        HStack {
-                            Spacer()
-                            // Your Rectangle view
-                            Rectangle()//RED
-                                .foregroundColor(.clear)
-                                .frame(width: 46, height: 46)
-                                .background(Color(red: 0.95, green: 0.36, blue: 0.11))
-                                .cornerRadius(15)
-                           //Spacer()
-                        } .padding(10)
-                       // Spacer()
-                    }
-            VStack {
-                //Spacer()
-                HStack {
+                VStack {
+                    
                     Spacer()
-                    Rectangle()//Blue
-                    //Spacer()
-                        .foregroundColor(.clear)
-                        .frame(width: 46, height: 46)
-                        .background(Color(red: 0.11, green: 0.63, blue: 0.95))
-                        .cornerRadius(15)
-                    Spacer()
-                } .padding(10)
-            }
-            .navigationTitle("Social Widgets")
-            .navigationBarItems(trailing: Button(action: {
+                    HStack {
+                    
+                        Image("Group 13") // Left
+                            .resizable() // Make the image resizable
+                            .scaledToFit()
+                            .frame(width: 50, height: 50)
+                            .background(Color(red: 0.50, green: 0.50, blue: 0.50))
+                            .cornerRadius(15)
+
+                        Spacer() // Between left and right
+                            
+                        Image(systemName: "plus.square") // Center
+                            .resizable() // Make the image resizable
+                            .scaledToFit()
+                            .frame(width: 46, height: 46)
+                           //  .cornerRadius(15)
+                                
+                        Spacer() // Center and right
+                                
+                        Image(systemName: "gear") // Right
+                            .resizable() // Make the image resizable
+                            .scaledToFit() // Scale the image to fit its frame
+                            .frame(width: 50, height: 50)
+                            .cornerRadius(15)
+
+                        
+                    }
+                    .padding(0) // Add padding around the HStack
+                    .padding(.top, 650) // Add additional padding to the top
+
+                    
+                }
+                .navigationTitle("Social Widgets")
+                Button(action: {
+                    // Define the action here, like print("Button tapped")
+                }) {
+                    Text("Click Me") // Content of the button
+                }
                 
-            }) {
-            })
+            }
         }
     }
 }
@@ -77,4 +56,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

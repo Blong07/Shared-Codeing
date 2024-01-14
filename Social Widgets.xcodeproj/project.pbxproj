@@ -23,6 +23,7 @@
 		8F09DB382B4A8A3C0089F820 /* Widget_Section.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8F09DB342B4A8A3B0089F820 /* Widget_Section.intentdefinition */; };
 		8F09DB392B4A8A3C0089F820 /* Widget_Section.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8F09DB342B4A8A3B0089F820 /* Widget_Section.intentdefinition */; };
 		8F09DB3C2B4A8A3C0089F820 /* Widget SectionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8F09DB272B4A8A3B0089F820 /* Widget SectionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8FF14A232B539D59005C7736 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF14A222B539D59005C7736 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		8F09DB342B4A8A3B0089F820 /* Widget_Section.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Widget_Section.intentdefinition; sourceTree = "<group>"; };
 		8F09DB352B4A8A3C0089F820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F09DB372B4A8A3C0089F820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF14A222B539D59005C7736 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				8F09DAF92B4A87060089F820 /* Social_WidgetsApp.swift */,
+				8FF14A222B539D59005C7736 /* Launch Screen.storyboard */,
 				8F09DAFB2B4A87060089F820 /* BackGroundView.swift */,
 				8F09DAFD2B4A87060089F820 /* Assets.xcassets */,
 				8F09DAFF2B4A87060089F820 /* Preview Content */,
@@ -327,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF14A232B539D59005C7736 /* Launch Screen.storyboard in Resources */,
 				8F09DB012B4A87060089F820 /* Preview Assets.xcassets in Resources */,
 				8F09DAFE2B4A87060089F820 /* Assets.xcassets in Resources */,
 			);
