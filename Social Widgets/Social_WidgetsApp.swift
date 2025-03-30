@@ -11,6 +11,7 @@ import SwiftUI
 struct Social_WidgetsApp: App {
     var body: some Scene {
         WindowGroup {
+            ContentView()
         }
     }
 }
